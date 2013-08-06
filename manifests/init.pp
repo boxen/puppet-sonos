@@ -6,6 +6,6 @@
 class sonos {
   package { 'Sonos':
     provider => 'appdmg_eula',
-    source   => 'http://update.sonos.com/software/mac/mdcr/SonosDesktopController40.dmg'
+    source   => 'http://update.sonos.com/software/mac/mdcr/SonosDesktopController41.dmg'
   }
 }
