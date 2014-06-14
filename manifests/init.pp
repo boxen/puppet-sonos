@@ -4,8 +4,8 @@
 #
 #   include sonos
 class sonos {
-  package { 'SonosDesktopController43':
+  package { 'SonosDesktopController50':
     provider => 'appdmg_eula',
-    source   => 'http://update.sonos.com/software/mac/mdcr/SonosDesktopController43.dmg'
+    source   => 'http://update.sonos.com/software/mac/mdcr/SonosDesktopController50.dmg'
   }
 }
