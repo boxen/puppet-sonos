@@ -2,9 +2,9 @@ require 'spec_helper'
 
 describe 'sonos' do
   it do
-    should contain_package('SonosDesktopController43').with({
+    should contain_package('SonosDesktopController50').with({
       :provider => 'appdmg_eula',
-      :source   => 'http://update.sonos.com/software/mac/mdcr/SonosDesktopController43.dmg',
+      :source   => 'http://update.sonos.com/software/mac/mdcr/SonosDesktopController50.dmg',
     })
   end
 end
